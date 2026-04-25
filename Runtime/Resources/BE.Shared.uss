@@ -1,0 +1,73 @@
+:root {
+    --be-color-background: rgb(12, 12, 16);
+    --be-color-surface: rgb(24, 23, 29);
+    --be-color-surface-muted: rgb(31, 35, 35);
+    --be-color-border: rgb(57, 95, 73);
+    --be-color-text: rgb(248, 245, 239);
+    --be-color-text-muted: rgb(176, 174, 184);
+    --be-color-accent: rgb(105, 213, 145);
+    --be-color-accent-strong: rgb(74, 188, 123);
+    --be-color-warning: rgb(244, 187, 89);
+    --be-color-danger: rgb(235, 100, 100);
+    --be-space-xs: 4px;
+    --be-space-sm: 8px;
+    --be-space-md: 16px;
+    --be-space-lg: 24px;
+    --be-radius-sm: 6px;
+    --be-radius-md: 12px;
+    color: var(--be-color-text);
+    font-size: 16px;
+}
+
+.be-screen {
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: var(--be-color-background);
+    color: var(--be-color-text);
+}
+
+.be-column {
+    flex-direction: column;
+}
+
+.be-row {
+    flex-direction: row;
+}
+
+.be-panel {
+    border-width: 1px;
+    border-color: var(--be-color-border);
+    border-radius: var(--be-radius-md);
+    background-color: var(--be-color-surface);
+    padding: var(--be-space-lg);
+}
+
+.be-button-primary {
+    border-width: 0;
+    border-radius: 999px;
+    background-color: var(--be-color-accent);
+    color: rgb(8, 13, 10);
+    padding-top: 10px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    -unity-font-style: bold;
+}
+
+.be-button-secondary {
+    border-width: 1px;
+    border-color: var(--be-color-border);
+    border-radius: 999px;
+    background-color: var(--be-color-surface-muted);
+    color: var(--be-color-text);
+    padding-top: 10px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    -unity-font-style: bold;
+}
+
+.be-text-muted {
+    color: var(--be-color-text-muted);
+}
+

@@ -1,0 +1,16 @@
+{
+  "name": "com.be.unity.shared",
+  "version": "0.1.0",
+  "displayName": "BE Unity Shared",
+  "description": "Shared UI Toolkit, MVVMC, and support code for Board Enthusiasts Unity apps.",
+  "unity": "6000.4",
+  "author": {
+    "name": "Board Enthusiasts",
+    "url": "https://github.com/board-enthusiasts"
+  },
+  "keywords": [
+    "board-enthusiasts",
+    "ui-toolkit"
+  ]
+}
+
